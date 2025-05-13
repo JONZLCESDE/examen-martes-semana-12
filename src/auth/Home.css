@@ -1,0 +1,113 @@
+.home-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px; 
+  max-width: 960px;
+  margin: 0 auto; 
+}
+
+.welcome-section {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.welcome-section h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.recent-activities-section h3,
+.featured-discussions-section h3,
+.upcoming-events-section h3,
+.benefits-section h3,
+.contact-section h3,
+.about-us-section h3 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.recent-activities-section ul,
+.featured-discussions-section ul,
+.upcoming-events-section ul,
+.benefits-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-activities-section li,
+.featured-discussions-section li,
+.upcoming-events-section li,
+.benefits-section li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.recent-activities-section li:last-child,
+.featured-discussions-section li:last-child,
+.upcoming-events-section li:last-child,
+.benefits-section li:last-child {
+  border-bottom: none;
+}
+
+.benefits-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.benefits-section a:hover {
+  text-decoration: underline;
+}
+
+.contact-section {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.suggestion-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.suggestion-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-height: 100px;
+}
+
+.suggestion-form button {
+  padding: 10px 15px;
+  background-color: #0169fb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.suggestion-form button:hover {
+  background-color: #008be1;
+}
+
+.contact-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+.about-us-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-us-section a:hover {
+  text-decoration: underline;
+}

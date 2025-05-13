@@ -1,0 +1,65 @@
+.listado-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 960px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-imagen {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.ver-button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.ver-button:hover {
+  background-color: #0056b3;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1585e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.home-button:hover {
+  background-color: #5a6268;
+}
